@@ -25,7 +25,6 @@ def remover():
     while page < 96:
         browser.get(url2)
         browser.find_element_by_xpath('//*[@id="duplicate_entry_all_apply"]').click()
-        browser.refresh()
         page += 1
 
 
