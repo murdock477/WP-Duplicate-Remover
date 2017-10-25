@@ -22,7 +22,7 @@ def login():
 
 def remover():
     page = 1
-    while page < 96:
+    while page < 95:
         browser.get(url2)
         browser.find_element_by_xpath('//*[@id="duplicate_entry_all_apply"]').click()
         page += 1
